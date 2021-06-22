@@ -4,7 +4,7 @@ const BASE_URL = "http://localhost:3000"
 postString('{"string_to_cut":"iamyourlyftdriver"}')
 
 function postString(string_to_cut){
-    fetch(BASE_URL, {
+    fetch(BASE_URL/test, {
         method: 'POST',
         headers: {
             'Content-Type':'application/json',
